@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Fri May 27 01:00:12 2022 as: nmap -sC -sV -oA nmap/ftp ftp.jesuscallsministries.org -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/ftp ftp.jesuscallsministries.org" start="1653593412" startstr="Fri May 27 01:00:12 2022" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="35.185.25.70" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ftp.jesuscallsministries.org" type="user"/>
+</hostnames>
+</hosthint>
+<host starttime="1653593412" endtime="1653593454"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="35.185.25.70" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ftp.jesuscallsministries.org" type="user"/>
+<hostname name="70.25.185.35.bc.googleusercontent.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="997">
+<extrareasons reason="no-responses" count="996"/>
+<extrareasons reason="host-unreach" count="1"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-title" output="Site Not Configured | 404 Not Found"><elem key="title">Site Not Configured | 404 Not Found</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service><script id="http-title" output="Site Not Configured | 404 Not Found"><elem key="title">Site Not Configured | 404 Not Found</elem>
+</script><script id="ssl-cert" output="Subject: commonName=*.wpengine.com&#xa;Subject Alternative Name: DNS:*.wpengine.com, DNS:wpengine.com&#xa;Not valid before: 2021-08-03T00:00:00&#xa;Not valid after:  2022-09-03T23:59:59"><table key="subject">
+<elem key="commonName">*.wpengine.com</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1</elem>
+<elem key="countryName">US</elem>
+<elem key="organizationName">DigiCert Inc</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">D882A681D8CF1A2417C4763B16FB8F0773E5B9A8142DD2A3F40813E58974254E6BFA45CD65D5B35A960051AB0320438977314708593C95109386EC175CC5FF48A3E3BE51C594D9C9F8036C1B254950E678DD09C9A79908B5C0183E737984044F36E55C0157B2B651EA71089316EBFAF19FB0114E513DA2AC827B6B6233477BEAC5408552A79EA9E05C89A7EEB53FD1DBF8218F90AF73CCB286277B8F0B611BA15CA23E0A17437F17A9E0BD82C22F803B3D31B643100A33681B07492D12554CF1685B098EA067C543560C4F1D0348CD264323064CFC5D7CAEB32D948315D9DB3A778CB018B9281AF1E547E5D75016298E7096B9729ADEC7A769494E13DCDA081D</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:A4:8D:E5:BE:7C:79:E4:70:23:6D:2E:29:34:AD:23:58:DC:F5:31:7F&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">C3:7A:FA:88:D8:43:DE:D1:2E:65:88:C4:D6:FB:6E:49:68:C7:A2:59</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:*.wpengine.com, DNS:wpengine.com</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl3.digicert.com/RapidSSLTLSDVRSAMixedSHA2562020CA-1.crl&#xa;&#xa;Full Name:&#xa;  URI:http://crl4.digicert.com/RapidSSLTLSDVRSAMixedSHA2562020CA-1.crl&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Certificate Policies</elem>
+<elem key="value">Policy: 2.23.140.1.2.1&#xa;  CPS: http://www.digicert.com/CPS&#xa;</elem>
+</table>
+<table>
+<elem key="name">Authority Information Access</elem>
+<elem key="value">OCSP - URI:http://ocsp.digicert.com&#xa;CA Issuers - URI:http://cacerts.digicert.com/RapidSSLTLSDVRSAMixedSHA2562020CA-1.crt&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">CT Precertificate SCTs</elem>
+<elem key="value">Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 46:A5:55:EB:75:FA:91:20:30:B5:A2:89:69:F4:F3:7D:&#xa;                11:2C:41:74:BE:FD:49:B8:85:AB:F2:FC:70:FE:6D:47&#xa;    Timestamp : Aug  3 19:16:03.851 2021 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:44:02:20:37:82:BA:88:8B:1F:27:DB:EC:EC:F4:3B:&#xa;                D0:C5:D5:D3:D8:72:D4:2F:CF:7D:E1:0F:23:08:4C:67:&#xa;                20:A8:AA:DE:02:20:38:06:72:83:E0:2D:61:48:62:27:&#xa;                E6:64:85:1A:23:0B:F7:E5:60:C5:A1:76:62:AC:EB:CB:&#xa;                23:8F:86:B8:FF:A4&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 51:A3:B0:F5:FD:01:79:9C:56:6D:B8:37:78:8F:0C:A4:&#xa;                7A:CC:1B:27:CB:F7:9E:88:42:9A:0D:FE:D4:8B:05:E5&#xa;    Timestamp : Aug  3 19:16:03.934 2021 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:46:02:21:00:8D:2A:19:32:A8:0B:D9:29:DA:9D:4C:&#xa;                23:F9:9F:8A:E2:AF:23:34:A0:0D:C3:9B:D9:49:DC:57:&#xa;                00:D8:4A:24:90:02:21:00:E7:DA:C4:C4:74:3B:56:DB:&#xa;                86:2F:1A:3F:9E:7A:29:4B:6D:50:AE:A5:BF:B2:0F:5B:&#xa;                1F:43:29:84:F6:C6:4C:31&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 41:C8:CA:B1:DF:22:46:4A:10:C6:A1:3A:09:42:87:5E:&#xa;                4E:31:8B:1B:03:EB:EB:4B:C7:68:F0:90:62:96:06:F6&#xa;    Timestamp : Aug  3 19:16:03.807 2021 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:46:02:21:00:A4:5A:E1:01:BC:A6:33:FD:FF:6D:EF:&#xa;                4C:AE:14:7D:54:5A:69:09:B0:08:5D:32:E5:B3:FF:29:&#xa;                DA:15:50:83:1F:02:21:00:F2:15:DE:67:04:C9:5E:11:&#xa;                0F:5A:D6:7C:83:10:BE:BD:21:22:20:FA:B4:7C:0F:7A:&#xa;                8D:26:DA:C1:E0:78:1A:44</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-08-03T00:00:00</elem>
+<elem key="notAfter">2022-09-03T23:59:59</elem>
+</table>
+<elem key="md5">78d72010b552e62997fcb5c3903266b1</elem>
+<elem key="sha1">a63bc804af6595e520fc6240b9eab498a0e0ff98</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIGjjCCBXagAwIBAgIQAgzgWvPQeLJMoScPsOuyNjANBgkqhkiG9w0BAQsFADBZ&#xa;MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypS&#xa;YXBpZFNTTCBUTFMgRFYgUlNBIE1peGVkIFNIQTI1NiAyMDIwIENBLTEwHhcNMjEw&#xa;ODAzMDAwMDAwWhcNMjIwOTAzMjM1OTU5WjAZMRcwFQYDVQQDDA4qLndwZW5naW5l&#xa;LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANiCpoHYzxokF8R2&#xa;Oxb7jwdz5bmoFC3So/QIE+WJdCVOa/pFzWXVs1qWAFGrAyBDiXcxRwhZPJUQk4bs&#xa;F1zF/0ij475RxZTZyfgDbBslSVDmeN0JyaeZCLXAGD5zeYQETzblXAFXsrZR6nEI&#xa;kxbr+vGfsBFOUT2irIJ7a2IzR3vqxUCFUqeeqeBciafutT/R2/ghj5Cvc8yyhid7&#xa;jwthG6Fcoj4KF0N/F6ngvYLCL4A7PTG2QxAKM2gbB0ktElVM8WhbCY6gZ8VDVgxP&#xa;HQNIzSZDIwZM/F18rrMtlIMV2ds6d4ywGLkoGvHlR+XXUBYpjnCWuXKa3senaUlO&#xa;E9zaCB0CAwEAAaOCA5AwggOMMB8GA1UdIwQYMBaAFKSN5b58eeRwI20uKTStI1jc&#xa;9TF/MB0GA1UdDgQWBBTDevqI2EPe0S5liMTW+25JaMeiWTAnBgNVHREEIDAegg4q&#xa;LndwZW5naW5lLmNvbYIMd3BlbmdpbmUuY29tMA4GA1UdDwEB/wQEAwIFoDAdBgNV&#xa;HSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwgZsGA1UdHwSBkzCBkDBGoESgQoZA&#xa;aHR0cDovL2NybDMuZGlnaWNlcnQuY29tL1JhcGlkU1NMVExTRFZSU0FNaXhlZFNI&#xa;QTI1NjIwMjBDQS0xLmNybDBGoESgQoZAaHR0cDovL2NybDQuZGlnaWNlcnQuY29t&#xa;L1JhcGlkU1NMVExTRFZSU0FNaXhlZFNIQTI1NjIwMjBDQS0xLmNybDA+BgNVHSAE&#xa;NzA1MDMGBmeBDAECATApMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3LmRpZ2ljZXJ0&#xa;LmNvbS9DUFMwgYUGCCsGAQUFBwEBBHkwdzAkBggrBgEFBQcwAYYYaHR0cDovL29j&#xa;c3AuZGlnaWNlcnQuY29tME8GCCsGAQUFBzAChkNodHRwOi8vY2FjZXJ0cy5kaWdp&#xa;Y2VydC5jb20vUmFwaWRTU0xUTFNEVlJTQU1peGVkU0hBMjU2MjAyMENBLTEuY3J0&#xa;MAkGA1UdEwQCMAAwggF/BgorBgEEAdZ5AgQCBIIBbwSCAWsBaQB1AEalVet1+pEg&#xa;MLWiiWn0830RLEF0vv1JuIWr8vxw/m1HAAABew1xwIsAAAQDAEYwRAIgN4K6iIsf&#xa;J9vs7PQ70MXV09hy1C/PfeEPIwhMZyCoqt4CIDgGcoPgLWFIYifmZIUaIwv35WDF&#xa;oXZirOvLI4+GuP+kAHcAUaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeUA&#xa;AAF7DXHA3gAABAMASDBGAiEAjSoZMqgL2SnanUwj+Z+K4q8jNKANw5vZSdxXANhK&#xa;JJACIQDn2sTEdDtW24YvGj+eeilLbVCupb+yD1sfQymE9sZMMQB3AEHIyrHfIkZK&#xa;EMahOglCh15OMYsbA+vrS8do8JBilgb2AAABew1xwF8AAAQDAEgwRgIhAKRa4QG8&#xa;pjP9/23vTK4UfVRaaQmwCF0y5bP/KdoVUIMfAiEA8hXeZwTJXhEPWtZ8gxC+vSEi&#xa;IPq0fA96jSbaweB4GkQwDQYJKoZIhvcNAQELBQADggEBAHK3l4XW2Iinrjk8aR1c&#xa;ri8C/S4r2R8gpUsZIjcbJx2Jzd+UNJrA5MrO2MSUa7dXqazLA/5G+Nq8JXA5izg8&#xa;zcxyIguhtLjootqp1F6JzOuz5psu0XvdvY77QadFDmyIRGPzi5r498io5skT8/Eo&#xa;3AoCSOXyNe1954n7x26o5bO9kC0D1hhS8zt0qUQpRy7YaRisV0DJCKaasO/294kb&#xa;ESQO/XS8HYEea3Achxd2lJda1nhHsk4dmjB89Vi/S7zDnLuIps62y0exfywhyk/U&#xa;GWUdW0sLrvrUD9+Wq4bbciufSAHVhsfYSDAhitJZZYni/iN5V7hmW/hj6xMMcZ4j&#xa;7Ss=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script></port>
+<port protocol="tcp" portid="2222"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="ProFTPD mod_sftp" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd</cpe></service></port>
+</ports>
+<times srtt="251550" rttvar="12606" to="301974"/>
+</host>
+<runstats><finished time="1653593454" timestr="Fri May 27 01:00:54 2022" summary="Nmap done at Fri May 27 01:00:54 2022; 1 IP address (1 host up) scanned in 42.32 seconds" elapsed="42.32" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

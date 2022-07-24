@@ -1,0 +1,519 @@
+# Nmap 7.91 scan initiated Fri May 27 02:02:22 2022 as: nmap -sC -sV -oA nmap/all_ips -iL ips.txt
+Nmap scan report for 199.59.243.220
+Host is up (0.0040s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     OpenResty web app server
+|_http-server-header: openresty
+|_http-title: 403 Forbidden
+443/tcp open  ssl/http OpenResty web app server
+|_http-server-header: openresty
+|_http-title: 403 Forbidden
+| ssl-cert: Subject: commonName=sni-support-required-for-valid-ssl
+| Not valid before: 2020-07-05T01:44:35
+|_Not valid after:  2030-07-03T01:44:35
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+
+Nmap scan report for 199.59.243.201
+Host is up (0.0039s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     OpenResty web app server
+|_http-server-header: openresty
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-trane-info: Problem with XML parsing of /evox/about
+443/tcp open  ssl/http OpenResty web app server
+|_http-server-header: openresty
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-trane-info: Problem with XML parsing of /evox/about
+| ssl-cert: Subject: commonName=sni-support-required-for-valid-ssl
+| Not valid before: 2020-07-05T01:44:35
+|_Not valid after:  2030-07-03T01:44:35
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+
+Nmap scan report for 70.25.185.35.bc.googleusercontent.com (35.185.25.70)
+Host is up (0.25s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     nginx
+|_http-title: Site Not Configured | 404 Not Found
+443/tcp  open  ssl/http nginx
+|_http-title: Site Not Configured | 404 Not Found
+| ssl-cert: Subject: commonName=*.wpengine.com
+| Subject Alternative Name: DNS:*.wpengine.com, DNS:wpengine.com
+| Not valid before: 2021-08-03T00:00:00
+|_Not valid after:  2022-09-03T23:59:59
+2222/tcp open  ssh      ProFTPD mod_sftp (protocol 2.0)
+
+Nmap scan report for 216.120.146.201
+Host is up (0.24s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE  VERSION
+80/tcp  open   http     OpenResty web app server
+|_http-server-header: openresty
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-trane-info: Problem with XML parsing of /evox/about
+113/tcp closed ident
+443/tcp open   ssl/http OpenResty web app server
+|_http-server-header: openresty
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-trane-info: Problem with XML parsing of /evox/about
+| ssl-cert: Subject: commonName=sni-support-required-for-valid-ssl
+| Not valid before: 2020-07-05T01:44:35
+|_Not valid after:  2030-07-03T01:44:35
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+
+Nmap scan report for bioepinet.com (108.167.182.38)
+Host is up (0.25s latency).
+Not shown: 985 closed ports
+PORT     STATE SERVICE  VERSION
+21/tcp   open  ftp      Pure-FTPd
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+|_ssl-date: TLS randomness does not represent time
+22/tcp   open  ssh      OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 8d:12:a0:00:bd:aa:d3:23:53:f0:74:b2:39:eb:01:d9 (DSA)
+|   2048 d1:5a:a0:cf:ff:80:f8:28:b3:57:e9:60:0b:b5:3b:f3 (RSA)
+|   256 ca:7d:25:8e:cf:52:29:28:c8:8e:7a:96:5e:37:2c:bb (ECDSA)
+|_  256 de:ab:aa:0f:67:8f:2a:18:72:c4:31:4a:e1:ac:5d:e3 (ED25519)
+25/tcp   open  smtp     Exim smtpd 4.94.2
+| smtp-commands: gator4207.hostgator.com Hello bioepinet.com [122.165.182.3], SIZE 52428800, 8BITMIME, PIPELINING, PIPE_CONNECT, AUTH PLAIN LOGIN, STARTTLS, HELP, 
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP 
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+26/tcp   open  smtp     Exim smtpd 4.94.2
+| smtp-commands: gator4207.hostgator.com Hello bioepinet.com [122.165.182.3], SIZE 52428800, 8BITMIME, PIPELINING, PIPE_CONNECT, AUTH PLAIN LOGIN, STARTTLS, HELP, 
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP 
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+53/tcp   open  domain   ISC BIND 9.11.4-P2 (RedHat Enterprise Linux 7)
+| dns-nsid: 
+|_  bind.version: 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.5
+80/tcp   open  http     Apache httpd
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to https://bioepinet.com/
+110/tcp  open  pop3     Dovecot pop3d
+|_pop3-capabilities: UIDL RESP-CODES TOP CAPA SASL(PLAIN LOGIN) USER STLS AUTH-RESP-CODE PIPELINING
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+|_ssl-date: TLS randomness does not represent time
+143/tcp  open  imap     Dovecot imapd
+|_imap-capabilities: post-login OK IMAP4rev1 have SASL-IR NAMESPACE Pre-login capabilities STARTTLS AUTH=PLAIN more ENABLE listed IDLE LITERAL+ ID LOGIN-REFERRALS AUTH=LOGINA0001
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+|_ssl-date: TLS randomness does not represent time
+443/tcp  open  ssl/http Apache httpd
+| http-robots.txt: 2 disallowed entries 
+|_/wp-admin/ /our-services/
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to https://www.bioepinet.com/
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+465/tcp  open  ssl/smtp Exim smtpd 4.94.2
+|_smtp-commands: SMTP EHLO bioepinet.com: failed to receive data: failed to receive data
+587/tcp  open  smtp     Exim smtpd 4.94.2
+| smtp-commands: gator4207.hostgator.com Hello bioepinet.com [122.165.182.3], SIZE 52428800, 8BITMIME, PIPELINING, PIPE_CONNECT, AUTH PLAIN LOGIN, STARTTLS, HELP, 
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP 
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+993/tcp  open  ssl/imap Dovecot imapd
+|_imap-capabilities: CAPABILITY
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+|_ssl-date: TLS randomness does not represent time
+995/tcp  open  ssl/pop3 Dovecot pop3d
+|_pop3-capabilities: UIDL SASL(PLAIN LOGIN) RESP-CODES USER AUTH-RESP-CODE TOP CAPA PIPELINING
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+|_ssl-date: TLS randomness does not represent time
+2222/tcp open  ssh      OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|_  1024 8d:12:a0:00:bd:aa:d3:23:53:f0:74:b2:39:eb:01:d9 (DSA)
+3306/tcp open  mysql    MySQL 5.7.23-23
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.23-23
+|   Thread ID: 5303828
+|   Capabilities flags: 65535
+|   Some Capabilities: Support41Auth, ODBCClient, ConnectWithDatabase, InteractiveClient, FoundRows, Speaks41ProtocolOld, DontAllowDatabaseTableColumn, SupportsLoadDataLocal, Speaks41ProtocolNew, IgnoreSigpipes, IgnoreSpaceBeforeParenthesis, SwitchToSSLAfterHandshake, SupportsTransactions, LongPassword, LongColumnFlag, SupportsCompression, SupportsMultipleResults, SupportsMultipleStatments, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: \x14\x06\x0F%L-\x019\x1DU~9C58\x02\x01j:C
+|_  Auth Plugin Name: mysql_native_password
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Not valid before: 2021-08-31T00:00:00
+|_Not valid after:  2022-08-31T23:59:59
+|_ssl-date: TLS randomness does not represent time
+Service Info: Host: gator4207.hostgator.com; OS: Linux; CPE: cpe:/o:redhat:enterprise_linux:7
+
+Nmap scan report for 104.21.42.227
+Host is up (0.15s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 172.67.167.168
+Host is up (0.15s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 104.21.34.31
+Host is up (0.15s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 172.67.167.216
+Host is up (0.15s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 172.67.182.192
+Host is up (0.036s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 104.21.18.166
+Host is up (0.036s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for jesuscalls.com (96.126.115.174)
+Host is up (0.24s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 b7:6c:0f:27:e6:07:b5:82:2c:e0:e3:f0:ff:a6:af:58 (DSA)
+|   2048 5e:45:07:fa:c8:23:3e:76:dd:9e:5d:64:aa:80:ee:58 (RSA)
+|_  256 3f:c3:95:8f:11:eb:8e:90:40:93:b8:0a:f5:55:e3:37 (ECDSA)
+80/tcp  open  http     Apache httpd
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to https://jesuscalls.com/
+443/tcp open  ssl/http Apache httpd
+| http-cookie-flags: 
+|   /: 
+|     CAKEPHP: 
+|_      httponly flag not set
+| http-robots.txt: 1 disallowed entry 
+|_/greyback/
+|_http-server-header: Apache
+|_http-title: Jesus Calls International: Home
+|_http-trane-info: Problem with XML parsing of /evox/about
+| ssl-cert: Subject: commonName=agwaco.com
+| Subject Alternative Name: DNS:agwaco.com, DNS:www.agwaco.com
+| Not valid before: 2022-04-09T14:25:39
+|_Not valid after:  2022-07-08T14:25:38
+|_ssl-date: 2022-05-26T20:36:58+00:00; 0s from scanner time.
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000033s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 8.4p1 Debian 5 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 0f:53:25:a2:14:d6:1e:06:ae:3a:16:ef:53:8a:bd:e6 (RSA)
+|   256 da:81:3b:8c:55:7a:2f:cb:3c:bb:af:d5:0c:5c:fe:e7 (ECDSA)
+|_  256 e6:2e:04:97:d5:3f:e6:5d:89:63:f1:97:ca:af:1d:89 (ED25519)
+5432/tcp open  postgresql PostgreSQL DB 9.6.0 or later
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|     SFATAL
+|     VFATAL
+|     C0A000
+|     Munsupported frontend protocol 65363.19778: server supports 2.0 to 3.0
+|     Fpostmaster.c
+|     L2103
+|_    RProcessStartupPacket
+| ssl-cert: Subject: commonName=kali-box.kali-box.lo
+| Subject Alternative Name: DNS:kali-box.kali-box.lo
+| Not valid before: 2021-05-15T15:25:58
+|_Not valid after:  2031-05-13T15:25:58
+|_ssl-date: TLS randomness does not represent time
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5432-TCP:V=7.91%I=7%D=5/27%Time=628FE46E%P=x86_64-pc-linux-gnu%r(SM
+SF:BProgNeg,8C,"E\0\0\0\x8bSFATAL\0VFATAL\0C0A000\0Munsupported\x20fronten
+SF:d\x20protocol\x2065363\.19778:\x20server\x20supports\x202\.0\x20to\x203
+SF:\.0\0Fpostmaster\.c\0L2103\0RProcessStartupPacket\0\0");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for p3nwvpweb151.shr.prod.phx3.secureserver.net (50.62.169.110)
+Host is up (0.25s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE  VERSION
+21/tcp   open  ftp      Microsoft ftpd
+| ftp-syst: 
+|_  SYST: Windows_NT
+| ssl-cert: Subject: commonName=*.shr.prod.phx3.secureserver.net
+| Subject Alternative Name: DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net
+| Not valid before: 2022-01-10T23:57:41
+|_Not valid after:  2023-02-11T23:57:41
+80/tcp   open  http     Microsoft IIS httpd 10.0
+| http-cookie-flags: 
+|   /: 
+|     ASPSESSIONIDSCATCSSD: 
+|_      httponly flag not set
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Page Not Found
+443/tcp  open  ssl/http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+| ssl-cert: Subject: commonName=Plesk/organizationName=Plesk/countryName=CH
+| Not valid before: 2021-04-13T21:19:32
+|_Not valid after:  2022-04-13T21:19:32
+2103/tcp open  msrpc    Microsoft Windows RPC
+2105/tcp open  msrpc    Microsoft Windows RPC
+2107/tcp open  msrpc    Microsoft Windows RPC
+8443/tcp open  ssl/http Microsoft IIS httpd 10.0
+|_http-favicon: Plesk Obsidian
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Microsoft-IIS/10.0
+| http-title: Plesk Obsidian 18.0.39
+|_Requested resource was https://p3nwvpweb151.shr.prod.phx3.secureserver.net:8443/login_up.php?success_redirect_url=%2F
+| ssl-cert: Subject: commonName=*.shr.prod.phx3.secureserver.net
+| Subject Alternative Name: DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net
+| Not valid before: 2022-01-10T23:57:41
+|_Not valid after:  2023-02-11T23:57:41
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 23.227.38.74
+Host is up (0.0042s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: 403 Forbidden
+| ssl-cert: Subject: commonName=*.myshopify.com/organizationName=Cloudflare, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:myshopify.com, DNS:*.myshopify.com
+| Not valid before: 2021-09-13T00:00:00
+|_Not valid after:  2022-09-12T23:59:59
+|_ssl-date: 2022-05-26T20:36:56+00:00; +1s from scanner time.
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: 403 Forbidden
+| ssl-cert: Subject: commonName=*.myshopify.com/organizationName=Cloudflare, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:myshopify.com, DNS:*.myshopify.com
+| Not valid before: 2021-09-13T00:00:00
+|_Not valid after:  2022-09-12T23:59:59
+|_ssl-date: 2022-05-26T20:37:02+00:00; 0s from scanner time.
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+
+Nmap scan report for webmail.jesuscalls.com (67.79.43.206)
+Host is up (0.26s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Microsoft IIS httpd 8.5
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: 403 - Forbidden: Access is denied.
+443/tcp open  ssl/http Microsoft IIS httpd 8.5
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+| ssl-cert: Subject: commonName=webmail.jesuscalls.com
+| Subject Alternative Name: DNS:webmail.jesuscalls.com, DNS:www.webmail.jesuscalls.com
+| Not valid before: 2021-09-11T10:11:54
+|_Not valid after:  2022-10-13T10:11:54
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 172.67.165.80
+Host is up (0.15s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 104.21.11.63
+Host is up (0.036s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 104.21.47.4
+Host is up (0.15s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Nmap scan report for 172.67.143.138
+Host is up (0.036s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+443/tcp  open  ssl/https     cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  http          Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+8443/tcp open  ssl/https-alt cloudflare
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+
+Post-scan script results:
+| clock-skew: 
+|   0s: 
+|     23.227.38.74
+|_    96.126.115.174 (jesuscalls.com)
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 27 02:07:34 2022 -- 22 IP addresses (20 hosts up) scanned in 311.86 seconds

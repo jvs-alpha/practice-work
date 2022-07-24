@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Fri May 27 00:30:06 2022 as: nmap -sC -sV -oA nmap/iniital p3nwvpweb151.shr.prod.phx3.secureserver.net -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/iniital p3nwvpweb151.shr.prod.phx3.secureserver.net" start="1653591606" startstr="Fri May 27 00:30:06 2022" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="50.62.169.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="p3nwvpweb151.shr.prod.phx3.secureserver.net" type="user"/>
+</hostnames>
+</hosthint>
+<taskprogress task="Connect Scan" time="1653591611" percent="11.80" remaining="30" etc="1653591641"/>
+<host starttime="1653591607" endtime="1653591692"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="50.62.169.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="p3nwvpweb151.shr.prod.phx3.secureserver.net" type="user"/>
+<hostname name="p3nwvpweb151.shr.prod.phx3.secureserver.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="993">
+<extrareasons reason="no-responses" count="993"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="ftp-syst" output="&#xa;  SYST: Windows_NT"><elem key="SYST">Windows_NT</elem>
+</script><script id="ssl-cert" output="Subject: commonName=*.shr.prod.phx3.secureserver.net&#xa;Subject Alternative Name: DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net&#xa;Not valid before: 2022-01-10T23:57:41&#xa;Not valid after:  2023-02-11T23:57:41"><table key="subject">
+<elem key="commonName">*.shr.prod.phx3.secureserver.net</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">Starfield Secure Certificate Authority - G2</elem>
+<elem key="countryName">US</elem>
+<elem key="localityName">Scottsdale</elem>
+<elem key="organizationName">Starfield Technologies, Inc.</elem>
+<elem key="organizationalUnitName">http://certs.starfieldtech.com/repository/</elem>
+<elem key="stateOrProvinceName">Arizona</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">B4344A0DB5D6C4EDAD721991CEB9230C50B353F7A49F94203E7404417F679A2BB77B302519D5F2AD5131A6EFC59C2905F5DD7C317F08E7BDAEFFA4788C0F95C8B198F30F6282D04FC325890C56231ED6F6FFEA815A51C6E0F7E55BA19F637875BB03119F2D3A185ED8B4850D574A26113393522AA54172CB79D4FBBC8BECF1D4DF4F5F087116B0111D4C51117B5A16949F55F2AC7CCAB7C962C90C82E7128092C806DF6F5092D22ACAA9FAC141369F428BDC66DC16D6FB1E18424AB7BA3B3F55D2B573EC7E43940D04296E76471D9D9870265CF71C8310CC11CDAD66BB0C3B137D8E54249F26B94311FCBB8CF306220AC64AA0C7CB13A602BC024DCAD3B25199</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl.starfieldtech.com/sfig2s1-388.crl&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Certificate Policies</elem>
+<elem key="value">Policy: 2.16.840.1.114414.1.7.23.1&#xa;  CPS: http://certificates.starfieldtech.com/repository/&#xa;Policy: 2.23.140.1.2.1&#xa;</elem>
+</table>
+<table>
+<elem key="name">Authority Information Access</elem>
+<elem key="value">OCSP - URI:http://ocsp.starfieldtech.com/&#xa;CA Issuers - URI:http://certificates.starfieldtech.com/repository/sfig2.crt&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:25:45:81:68:50:26:38:3D:3B:2D:2C:BE:CD:6A:D9:B6:3D:B3:66:63&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">1B:2C:7F:E9:31:FF:38:40:DE:D4:F3:F1:18:B6:CD:D5:11:67:BB:A3</elem>
+</table>
+<table>
+<elem key="name">CT Precertificate SCTs</elem>
+<elem key="value">Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : E8:3E:D0:DA:3E:F5:06:35:32:E7:57:28:BC:89:6B:C9:&#xa;                03:D3:CB:D1:11:6B:EC:EB:69:E1:77:7D:6D:06:BD:6E&#xa;    Timestamp : Jan 10 23:57:41.906 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:46:02:21:00:AD:E0:D9:2C:04:C8:11:19:22:05:FA:&#xa;                20:E0:BB:34:C4:17:C9:69:13:28:E2:DE:40:2A:B4:65:&#xa;                76:02:8E:55:B6:02:21:00:BD:5E:6A:5B:98:2C:3C:FC:&#xa;                AF:1E:FC:24:CD:9C:C1:AF:3A:68:EA:10:1F:A8:DD:02:&#xa;                0A:85:FD:04:5E:94:5D:EF&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 35:CF:19:1B:BF:B1:6C:57:BF:0F:AD:4C:6D:42:CB:BB:&#xa;                B6:27:20:26:51:EA:3F:E1:2A:EF:A8:03:C3:3B:D6:4C&#xa;    Timestamp : Jan 10 23:57:42.240 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:45:02:20:55:45:CA:7A:E3:DA:21:92:3A:4A:EA:72:&#xa;                88:B7:45:6A:92:73:FA:70:33:4D:87:1D:1E:5E:CC:47:&#xa;                23:E6:7F:31:02:21:00:EA:8B:E3:04:D4:47:B7:2E:19:&#xa;                E7:6F:39:DF:7E:36:7C:3C:49:94:07:49:59:2A:2E:C9:&#xa;                75:D9:C3:EB:F3:05:06&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 7A:32:8C:54:D8:B7:2D:B6:20:EA:38:E0:52:1E:E9:84:&#xa;                16:70:32:13:85:4D:3B:D2:2B:C1:3A:57:A3:52:EB:52&#xa;    Timestamp : Jan 10 23:57:42.343 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:45:02:21:00:B9:D9:59:BC:F8:59:25:93:E8:70:66:&#xa;                32:23:C1:80:1A:27:4D:0F:1A:96:70:B4:42:36:D8:0D:&#xa;                EB:EA:0D:AB:33:02:20:14:6B:64:D1:F4:ED:87:CC:83:&#xa;                46:2C:3F:B1:1E:C9:79:C1:F1:9A:B9:2C:60:4D:60:28:&#xa;                84:7B:EC:2B:90:1C:35</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2022-01-10T23:57:41</elem>
+<elem key="notAfter">2023-02-11T23:57:41</elem>
+</table>
+<elem key="md5">8e2af01e0a93ab249eb7e0cf3d51d63f</elem>
+<elem key="sha1">603b165e7be5fca1ae5bd6598a1065a7dfc7aef4</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIG8DCCBdigAwIBAgIINFRg6q8BgPEwDQYJKoZIhvcNAQELBQAwgcYxCzAJBgNV&#xa;BAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMSUw&#xa;IwYDVQQKExxTdGFyZmllbGQgVGVjaG5vbG9naWVzLCBJbmMuMTMwMQYDVQQLEypo&#xa;dHRwOi8vY2VydHMuc3RhcmZpZWxkdGVjaC5jb20vcmVwb3NpdG9yeS8xNDAyBgNV&#xa;BAMTK1N0YXJmaWVsZCBTZWN1cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIw&#xa;HhcNMjIwMTEwMjM1NzQxWhcNMjMwMjExMjM1NzQxWjArMSkwJwYDVQQDDCAqLnNo&#xa;ci5wcm9kLnBoeDMuc2VjdXJlc2VydmVyLm5ldDCCASIwDQYJKoZIhvcNAQEBBQAD&#xa;ggEPADCCAQoCggEBALQ0Sg211sTtrXIZkc65IwxQs1P3pJ+UID50BEF/Z5ort3sw&#xa;JRnV8q1RMabvxZwpBfXdfDF/COe9rv+keIwPlcixmPMPYoLQT8MliQxWIx7W9v/q&#xa;gVpRxuD35Vuhn2N4dbsDEZ8tOhhe2LSFDVdKJhEzk1IqpUFyy3nU+7yL7PHU309f&#xa;CHEWsBEdTFERe1oWlJ9V8qx8yrfJYskMgucSgJLIBt9vUJLSKsqp+sFBNp9Ci9xm&#xa;3BbW+x4YQkq3ujs/VdK1c+x+Q5QNBCludkcdnZhwJlz3HIMQzBHNrWa7DDsTfY5U&#xa;JJ8muUMR/LuM8wYiCsZKoMfLE6YCvAJNytOyUZkCAwEAAaOCA3owggN2MAwGA1Ud&#xa;EwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA4GA1UdDwEB&#xa;/wQEAwIFoDA9BgNVHR8ENjA0MDKgMKAuhixodHRwOi8vY3JsLnN0YXJmaWVsZHRl&#xa;Y2guY29tL3NmaWcyczEtMzg4LmNybDBjBgNVHSAEXDBaME4GC2CGSAGG/W4BBxcB&#xa;MD8wPQYIKwYBBQUHAgEWMWh0dHA6Ly9jZXJ0aWZpY2F0ZXMuc3RhcmZpZWxkdGVj&#xa;aC5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQIBMIGCBggrBgEFBQcBAQR2MHQwKgYI&#xa;KwYBBQUHMAGGHmh0dHA6Ly9vY3NwLnN0YXJmaWVsZHRlY2guY29tLzBGBggrBgEF&#xa;BQcwAoY6aHR0cDovL2NlcnRpZmljYXRlcy5zdGFyZmllbGR0ZWNoLmNvbS9yZXBv&#xa;c2l0b3J5L3NmaWcyLmNydDAfBgNVHSMEGDAWgBQlRYFoUCY4PTstLL7Natm2PbNm&#xa;YzBLBgNVHREERDBCgiAqLnNoci5wcm9kLnBoeDMuc2VjdXJlc2VydmVyLm5ldIIe&#xa;c2hyLnByb2QucGh4My5zZWN1cmVzZXJ2ZXIubmV0MB0GA1UdDgQWBBQbLH/pMf84&#xa;QN7U8/EYts3VEWe7ozCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHcA6D7Q2j71&#xa;BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAF+Rm0YkgAABAMASDBGAiEAreDZ&#xa;LATIERkiBfog4Ls0xBfJaRMo4t5AKrRldgKOVbYCIQC9XmpbmCw8/K8e/CTNnMGv&#xa;OmjqEB+o3QIKhf0EXpRd7wB2ADXPGRu/sWxXvw+tTG1Cy7u2JyAmUeo/4SrvqAPD&#xa;O9ZMAAABfkZtGeAAAAQDAEcwRQIgVUXKeuPaIZI6SupyiLdFapJz+nAzTYcdHl7M&#xa;RyPmfzECIQDqi+ME1Ee3LhnnbznffjZ8PEmUB0lZKi7JddnD6/MFBgB2AHoyjFTY&#xa;ty22IOo44FIe6YQWcDIThU070ivBOlejUutSAAABfkZtGkcAAAQDAEcwRQIhALnZ&#xa;Wbz4WSWT6HBmMiPBgBonTQ8alnC0QjbYDevqDaszAiAUa2TR9O2HzINGLD+xHsl5&#xa;wfGauSxgTWAohHvsK5AcNTANBgkqhkiG9w0BAQsFAAOCAQEAaPE54jC8A9fO+BVC&#xa;1w6Xy94TO8onsof3EJsJzo1HyV6e0Li3Vi0DYpQdRnv2qyKqAKjQ+ujaJMzMtAQx&#xa;Jf+K4F94N+IZNy4eNWlpgbPJ5FyFky2NnFirloClBlhpL7ColCWBMzMg9saQ5wdp&#xa;5Uw/Os4eoGJeFfEZVoGqh5EBguY7ig6MfqYDz2Ou3ganak4m2lijIfJI0IWoctyl&#xa;5y3l6raHUMjT56ys6PnsLz2rEs8WGT6eB03v8aiO5hdOVs6U5uMMB3gtHpQts/hK&#xa;PzvNN5Z4D6yPeJO5l/EwUOfNgRhHW7IDX9sDq6IOhMKNHGNuJeZjRRcslCBqmVEQ&#xa;0DmRRg==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-cookie-flags" output="&#xa;  /: &#xa;    ASPSESSIONIDSCATCSSD: &#xa;      httponly flag not set"><table key="/">
+<table key="ASPSESSIONIDSCATCSSD">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+</script><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/10.0"><elem>Microsoft-IIS/10.0</elem>
+</script><script id="http-title" output="Page Not Found"><elem key="title">Page Not Found</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script><script id="http-title" output="Not Found"><elem key="title">Not Found</elem>
+</script><script id="ssl-cert" output="Subject: commonName=Plesk/organizationName=Plesk/countryName=CH&#xa;Not valid before: 2021-04-13T21:19:32&#xa;Not valid after:  2022-04-13T21:19:32"><table key="subject">
+<elem key="commonName">Plesk</elem>
+<elem key="countryName">CH</elem>
+<elem key="emailAddress">info@plesk.com</elem>
+<elem key="localityName">Schaffhausen</elem>
+<elem key="organizationName">Plesk</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">Plesk</elem>
+<elem key="countryName">CH</elem>
+<elem key="emailAddress">info@plesk.com</elem>
+<elem key="localityName">Schaffhausen</elem>
+<elem key="organizationName">Plesk</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">CA1840EDCE72D1991944DC340EB31B15F935121FF4888AEDE5E0A194D583B555A70B737E0BA5AE370665034DAD2D6534E04F840E2CF9D1B150C613106CF3CA7B369DDD64DE2D6E12A005924605E77AC8DA0799DA26D54431EC6DA60BD4D8925DA51C290ECBB862222FB2C8E46F751DB02750CCECB6492FC4FFA7D1E50FB00A1BFACA3C6B0E3EDB8DF8A97DE7687796F1A19FFDA446C1304BDA76479B97E30A15D0C1598E00D0EE1657EAEAF086DFF38EE148F277A6476A0D5ECF5B7535D59BE2F3AB6DE4482904DFF95BEA6C893EAACE3A0CDBF8C46066AB5B4DA46BD1CA7E240C25754A9F1DBD6035E46131BB66C351ED0B2B93434BBC259F016C989626601D</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">77:5E:FD:38:C0:40:EB:4A:59:F0:6B:47:34:9F:AB:D7:F5:DA:E7:FA</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:77:5E:FD:38:C0:40:EB:4A:59:F0:6B:47:34:9F:AB:D7:F5:DA:E7:FA&#xa;DirName:/C=CH/L=Schaffhausen/O=Plesk/CN=Plesk/emailAddress=info@plesk.com&#xa;serial:27:5D:B2&#xa;</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-04-13T21:19:32</elem>
+<elem key="notAfter">2022-04-13T21:19:32</elem>
+</table>
+<elem key="md5">db1898d8e19fae2860dcf9cb8bbc0d5f</elem>
+<elem key="sha1">934cb8d8932682d0951df572690d0fba4d686eb6</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIEDTCCAvWgAwIBAgIDJ12yMA0GCSqGSIb3DQEBCwUAMGMxCzAJBgNVBAYTAkNI&#xa;MRUwEwYDVQQHDAxTY2hhZmZoYXVzZW4xDjAMBgNVBAoMBVBsZXNrMQ4wDAYDVQQD&#xa;DAVQbGVzazEdMBsGCSqGSIb3DQEJARYOaW5mb0BwbGVzay5jb20wHhcNMjEwNDEz&#xa;MjExOTMyWhcNMjIwNDEzMjExOTMyWjBjMQswCQYDVQQGEwJDSDEVMBMGA1UEBwwM&#xa;U2NoYWZmaGF1c2VuMQ4wDAYDVQQKDAVQbGVzazEOMAwGA1UEAwwFUGxlc2sxHTAb&#xa;BgkqhkiG9w0BCQEWDmluZm9AcGxlc2suY29tMIIBIjANBgkqhkiG9w0BAQEFAAOC&#xa;AQ8AMIIBCgKCAQEAyhhA7c5y0ZkZRNw0DrMbFfk1Eh/0iIrt5eChlNWDtVWnC3N+&#xa;C6WuNwZlA02tLWU04E+EDiz50bFQxhMQbPPKezad3WTeLW4SoAWSRgXnesjaB5na&#xa;JtVEMextpgvU2JJdpRwpDsu4YiIvssjkb3UdsCdQzOy2SS/E/6fR5Q+wChv6yjxr&#xa;Dj7bjfipfedod5bxoZ/9pEbBMEvadkebl+MKFdDBWY4A0O4WV+rq8Ibf847hSPJ3&#xa;pkdqDV7PW3U11Zvi86tt5EgpBN/5W+psiT6qzjoM2/jEYGarW02ka9HKfiQMJXVK&#xa;nx29YDXkYTG7ZsNR7Qsrk0NLvCWfAWyYliZgHQIDAQABo4HJMIHGMBMGA1UdJQQM&#xa;MAoGCCsGAQUFBwMBMB0GA1UdDgQWBBR3Xv04wEDrSlnwa0c0n6vX9drn+jCBjwYD&#xa;VR0jBIGHMIGEgBR3Xv04wEDrSlnwa0c0n6vX9drn+qFnpGUwYzELMAkGA1UEBhMC&#xa;Q0gxFTATBgNVBAcMDFNjaGFmZmhhdXNlbjEOMAwGA1UECgwFUGxlc2sxDjAMBgNV&#xa;BAMMBVBsZXNrMR0wGwYJKoZIhvcNAQkBFg5pbmZvQHBsZXNrLmNvbYIDJ12yMA0G&#xa;CSqGSIb3DQEBCwUAA4IBAQAaKsOt7VyxYOIfYwYBM/5oDfgPyinfBOUYoyNHJ8Ob&#xa;M1Dva+trHvOGtWor8mbCucnBRQKncAe/dE0EMk8txeya8vvZLn8OuwJlfFxzrRwj&#xa;FUcwrR0NUq7V/x2ZLzsMEWHU0vqiVoAFotx0r+0+A5LAB5O9M8+8IjEWWL+CKsAh&#xa;jnaBfAkPauAUd/uD4k5AF6C8bBHAkY1dx34/t8o1YZ7vQNbD7MtRxw5Vf4vV7NvQ&#xa;kIiNbw+ElPxfla9zrhn/+XI2AtDMUlS8hRNbgX42K1EG6qDsivylSBxwFU1lnj4w&#xa;gZhFfg1Cf/s/x2vo2uj6lFNUYwlWemPNXFHkgVJdVHzS&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script></port>
+<port protocol="tcp" portid="2103"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="2105"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="2107"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-favicon" output="Plesk Obsidian"/><script id="http-robots.txt" output="1 disallowed entry &#xa;/"/><script id="http-server-header" output="Microsoft-IIS/10.0"><elem>Microsoft-IIS/10.0</elem>
+</script><script id="http-title" output="Plesk Obsidian 18.0.39&#xa;Requested resource was https://p3nwvpweb151.shr.prod.phx3.secureserver.net:8443/login_up.php?success_redirect_url=%2F"><elem key="title">Plesk Obsidian 18.0.39</elem>
+<elem key="redirect_url">https://p3nwvpweb151.shr.prod.phx3.secureserver.net:8443/login_up.php?success_redirect_url=%2F</elem>
+</script><script id="ssl-cert" output="Subject: commonName=*.shr.prod.phx3.secureserver.net&#xa;Subject Alternative Name: DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net&#xa;Not valid before: 2022-01-10T23:57:41&#xa;Not valid after:  2023-02-11T23:57:41"><table key="subject">
+<elem key="commonName">*.shr.prod.phx3.secureserver.net</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">Starfield Secure Certificate Authority - G2</elem>
+<elem key="countryName">US</elem>
+<elem key="localityName">Scottsdale</elem>
+<elem key="organizationName">Starfield Technologies, Inc.</elem>
+<elem key="organizationalUnitName">http://certs.starfieldtech.com/repository/</elem>
+<elem key="stateOrProvinceName">Arizona</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">B4344A0DB5D6C4EDAD721991CEB9230C50B353F7A49F94203E7404417F679A2BB77B302519D5F2AD5131A6EFC59C2905F5DD7C317F08E7BDAEFFA4788C0F95C8B198F30F6282D04FC325890C56231ED6F6FFEA815A51C6E0F7E55BA19F637875BB03119F2D3A185ED8B4850D574A26113393522AA54172CB79D4FBBC8BECF1D4DF4F5F087116B0111D4C51117B5A16949F55F2AC7CCAB7C962C90C82E7128092C806DF6F5092D22ACAA9FAC141369F428BDC66DC16D6FB1E18424AB7BA3B3F55D2B573EC7E43940D04296E76471D9D9870265CF71C8310CC11CDAD66BB0C3B137D8E54249F26B94311FCBB8CF306220AC64AA0C7CB13A602BC024DCAD3B25199</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl.starfieldtech.com/sfig2s1-388.crl&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Certificate Policies</elem>
+<elem key="value">Policy: 2.16.840.1.114414.1.7.23.1&#xa;  CPS: http://certificates.starfieldtech.com/repository/&#xa;Policy: 2.23.140.1.2.1&#xa;</elem>
+</table>
+<table>
+<elem key="name">Authority Information Access</elem>
+<elem key="value">OCSP - URI:http://ocsp.starfieldtech.com/&#xa;CA Issuers - URI:http://certificates.starfieldtech.com/repository/sfig2.crt&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:25:45:81:68:50:26:38:3D:3B:2D:2C:BE:CD:6A:D9:B6:3D:B3:66:63&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">1B:2C:7F:E9:31:FF:38:40:DE:D4:F3:F1:18:B6:CD:D5:11:67:BB:A3</elem>
+</table>
+<table>
+<elem key="name">CT Precertificate SCTs</elem>
+<elem key="value">Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : E8:3E:D0:DA:3E:F5:06:35:32:E7:57:28:BC:89:6B:C9:&#xa;                03:D3:CB:D1:11:6B:EC:EB:69:E1:77:7D:6D:06:BD:6E&#xa;    Timestamp : Jan 10 23:57:41.906 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:46:02:21:00:AD:E0:D9:2C:04:C8:11:19:22:05:FA:&#xa;                20:E0:BB:34:C4:17:C9:69:13:28:E2:DE:40:2A:B4:65:&#xa;                76:02:8E:55:B6:02:21:00:BD:5E:6A:5B:98:2C:3C:FC:&#xa;                AF:1E:FC:24:CD:9C:C1:AF:3A:68:EA:10:1F:A8:DD:02:&#xa;                0A:85:FD:04:5E:94:5D:EF&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 35:CF:19:1B:BF:B1:6C:57:BF:0F:AD:4C:6D:42:CB:BB:&#xa;                B6:27:20:26:51:EA:3F:E1:2A:EF:A8:03:C3:3B:D6:4C&#xa;    Timestamp : Jan 10 23:57:42.240 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:45:02:20:55:45:CA:7A:E3:DA:21:92:3A:4A:EA:72:&#xa;                88:B7:45:6A:92:73:FA:70:33:4D:87:1D:1E:5E:CC:47:&#xa;                23:E6:7F:31:02:21:00:EA:8B:E3:04:D4:47:B7:2E:19:&#xa;                E7:6F:39:DF:7E:36:7C:3C:49:94:07:49:59:2A:2E:C9:&#xa;                75:D9:C3:EB:F3:05:06&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 7A:32:8C:54:D8:B7:2D:B6:20:EA:38:E0:52:1E:E9:84:&#xa;                16:70:32:13:85:4D:3B:D2:2B:C1:3A:57:A3:52:EB:52&#xa;    Timestamp : Jan 10 23:57:42.343 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:45:02:21:00:B9:D9:59:BC:F8:59:25:93:E8:70:66:&#xa;                32:23:C1:80:1A:27:4D:0F:1A:96:70:B4:42:36:D8:0D:&#xa;                EB:EA:0D:AB:33:02:20:14:6B:64:D1:F4:ED:87:CC:83:&#xa;                46:2C:3F:B1:1E:C9:79:C1:F1:9A:B9:2C:60:4D:60:28:&#xa;                84:7B:EC:2B:90:1C:35</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2022-01-10T23:57:41</elem>
+<elem key="notAfter">2023-02-11T23:57:41</elem>
+</table>
+<elem key="md5">8e2af01e0a93ab249eb7e0cf3d51d63f</elem>
+<elem key="sha1">603b165e7be5fca1ae5bd6598a1065a7dfc7aef4</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIG8DCCBdigAwIBAgIINFRg6q8BgPEwDQYJKoZIhvcNAQELBQAwgcYxCzAJBgNV&#xa;BAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMSUw&#xa;IwYDVQQKExxTdGFyZmllbGQgVGVjaG5vbG9naWVzLCBJbmMuMTMwMQYDVQQLEypo&#xa;dHRwOi8vY2VydHMuc3RhcmZpZWxkdGVjaC5jb20vcmVwb3NpdG9yeS8xNDAyBgNV&#xa;BAMTK1N0YXJmaWVsZCBTZWN1cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIw&#xa;HhcNMjIwMTEwMjM1NzQxWhcNMjMwMjExMjM1NzQxWjArMSkwJwYDVQQDDCAqLnNo&#xa;ci5wcm9kLnBoeDMuc2VjdXJlc2VydmVyLm5ldDCCASIwDQYJKoZIhvcNAQEBBQAD&#xa;ggEPADCCAQoCggEBALQ0Sg211sTtrXIZkc65IwxQs1P3pJ+UID50BEF/Z5ort3sw&#xa;JRnV8q1RMabvxZwpBfXdfDF/COe9rv+keIwPlcixmPMPYoLQT8MliQxWIx7W9v/q&#xa;gVpRxuD35Vuhn2N4dbsDEZ8tOhhe2LSFDVdKJhEzk1IqpUFyy3nU+7yL7PHU309f&#xa;CHEWsBEdTFERe1oWlJ9V8qx8yrfJYskMgucSgJLIBt9vUJLSKsqp+sFBNp9Ci9xm&#xa;3BbW+x4YQkq3ujs/VdK1c+x+Q5QNBCludkcdnZhwJlz3HIMQzBHNrWa7DDsTfY5U&#xa;JJ8muUMR/LuM8wYiCsZKoMfLE6YCvAJNytOyUZkCAwEAAaOCA3owggN2MAwGA1Ud&#xa;EwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA4GA1UdDwEB&#xa;/wQEAwIFoDA9BgNVHR8ENjA0MDKgMKAuhixodHRwOi8vY3JsLnN0YXJmaWVsZHRl&#xa;Y2guY29tL3NmaWcyczEtMzg4LmNybDBjBgNVHSAEXDBaME4GC2CGSAGG/W4BBxcB&#xa;MD8wPQYIKwYBBQUHAgEWMWh0dHA6Ly9jZXJ0aWZpY2F0ZXMuc3RhcmZpZWxkdGVj&#xa;aC5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQIBMIGCBggrBgEFBQcBAQR2MHQwKgYI&#xa;KwYBBQUHMAGGHmh0dHA6Ly9vY3NwLnN0YXJmaWVsZHRlY2guY29tLzBGBggrBgEF&#xa;BQcwAoY6aHR0cDovL2NlcnRpZmljYXRlcy5zdGFyZmllbGR0ZWNoLmNvbS9yZXBv&#xa;c2l0b3J5L3NmaWcyLmNydDAfBgNVHSMEGDAWgBQlRYFoUCY4PTstLL7Natm2PbNm&#xa;YzBLBgNVHREERDBCgiAqLnNoci5wcm9kLnBoeDMuc2VjdXJlc2VydmVyLm5ldIIe&#xa;c2hyLnByb2QucGh4My5zZWN1cmVzZXJ2ZXIubmV0MB0GA1UdDgQWBBQbLH/pMf84&#xa;QN7U8/EYts3VEWe7ozCCAX8GCisGAQQB1nkCBAIEggFvBIIBawFpAHcA6D7Q2j71&#xa;BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAF+Rm0YkgAABAMASDBGAiEAreDZ&#xa;LATIERkiBfog4Ls0xBfJaRMo4t5AKrRldgKOVbYCIQC9XmpbmCw8/K8e/CTNnMGv&#xa;OmjqEB+o3QIKhf0EXpRd7wB2ADXPGRu/sWxXvw+tTG1Cy7u2JyAmUeo/4SrvqAPD&#xa;O9ZMAAABfkZtGeAAAAQDAEcwRQIgVUXKeuPaIZI6SupyiLdFapJz+nAzTYcdHl7M&#xa;RyPmfzECIQDqi+ME1Ee3LhnnbznffjZ8PEmUB0lZKi7JddnD6/MFBgB2AHoyjFTY&#xa;ty22IOo44FIe6YQWcDIThU070ivBOlejUutSAAABfkZtGkcAAAQDAEcwRQIhALnZ&#xa;Wbz4WSWT6HBmMiPBgBonTQ8alnC0QjbYDevqDaszAiAUa2TR9O2HzINGLD+xHsl5&#xa;wfGauSxgTWAohHvsK5AcNTANBgkqhkiG9w0BAQsFAAOCAQEAaPE54jC8A9fO+BVC&#xa;1w6Xy94TO8onsof3EJsJzo1HyV6e0Li3Vi0DYpQdRnv2qyKqAKjQ+ujaJMzMtAQx&#xa;Jf+K4F94N+IZNy4eNWlpgbPJ5FyFky2NnFirloClBlhpL7ColCWBMzMg9saQ5wdp&#xa;5Uw/Os4eoGJeFfEZVoGqh5EBguY7ig6MfqYDz2Ou3ganak4m2lijIfJI0IWoctyl&#xa;5y3l6raHUMjT56ys6PnsLz2rEs8WGT6eB03v8aiO5hdOVs6U5uMMB3gtHpQts/hK&#xa;PzvNN5Z4D6yPeJO5l/EwUOfNgRhHW7IDX9sDq6IOhMKNHGNuJeZjRRcslCBqmVEQ&#xa;0DmRRg==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script></port>
+</ports>
+<times srtt="244463" rttvar="10041" to="284627"/>
+</host>
+<runstats><finished time="1653591692" timestr="Fri May 27 00:31:32 2022" summary="Nmap done at Fri May 27 00:31:32 2022; 1 IP address (1 host up) scanned in 85.88 seconds" elapsed="85.88" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

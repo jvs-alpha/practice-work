@@ -1,0 +1,45 @@
+# Nmap 7.91 scan initiated Fri May 27 00:30:06 2022 as: nmap -sC -sV -oA nmap/iniital p3nwvpweb151.shr.prod.phx3.secureserver.net
+Nmap scan report for p3nwvpweb151.shr.prod.phx3.secureserver.net (50.62.169.110)
+Host is up (0.24s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE  VERSION
+21/tcp   open  ftp      Microsoft ftpd
+| ftp-syst: 
+|_  SYST: Windows_NT
+| ssl-cert: Subject: commonName=*.shr.prod.phx3.secureserver.net
+| Subject Alternative Name: DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net
+| Not valid before: 2022-01-10T23:57:41
+|_Not valid after:  2023-02-11T23:57:41
+80/tcp   open  http     Microsoft IIS httpd 10.0
+| http-cookie-flags: 
+|   /: 
+|     ASPSESSIONIDSCATCSSD: 
+|_      httponly flag not set
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Page Not Found
+443/tcp  open  ssl/http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+| ssl-cert: Subject: commonName=Plesk/organizationName=Plesk/countryName=CH
+| Not valid before: 2021-04-13T21:19:32
+|_Not valid after:  2022-04-13T21:19:32
+2103/tcp open  msrpc    Microsoft Windows RPC
+2105/tcp open  msrpc    Microsoft Windows RPC
+2107/tcp open  msrpc    Microsoft Windows RPC
+8443/tcp open  ssl/http Microsoft IIS httpd 10.0
+|_http-favicon: Plesk Obsidian
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Microsoft-IIS/10.0
+| http-title: Plesk Obsidian 18.0.39
+|_Requested resource was https://p3nwvpweb151.shr.prod.phx3.secureserver.net:8443/login_up.php?success_redirect_url=%2F
+| ssl-cert: Subject: commonName=*.shr.prod.phx3.secureserver.net
+| Subject Alternative Name: DNS:*.shr.prod.phx3.secureserver.net, DNS:shr.prod.phx3.secureserver.net
+| Not valid before: 2022-01-10T23:57:41
+|_Not valid after:  2023-02-11T23:57:41
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 27 00:31:32 2022 -- 1 IP address (1 host up) scanned in 85.88 seconds

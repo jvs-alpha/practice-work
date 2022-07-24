@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Fri May 27 01:00:12 2022 as: nmap -sC -sV -oA nmap/ftp ftp.jesuscallsministries.org
+Host: 35.185.25.70 (70.25.185.35.bc.googleusercontent.com)	Status: Up
+Host: 35.185.25.70 (70.25.185.35.bc.googleusercontent.com)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/, 2222/open/tcp//ssh//ProFTPD mod_sftp (protocol 2.0)/	Ignored State: filtered (997)
+# Nmap done at Fri May 27 01:00:54 2022 -- 1 IP address (1 host up) scanned in 42.32 seconds

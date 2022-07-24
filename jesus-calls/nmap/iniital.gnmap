@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Fri May 27 00:30:06 2022 as: nmap -sC -sV -oA nmap/iniital p3nwvpweb151.shr.prod.phx3.secureserver.net
+Host: 50.62.169.110 (p3nwvpweb151.shr.prod.phx3.secureserver.net)	Status: Up
+Host: 50.62.169.110 (p3nwvpweb151.shr.prod.phx3.secureserver.net)	Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft IIS httpd 10.0/, 443/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 2103/open/tcp//msrpc//Microsoft Windows RPC/, 2105/open/tcp//msrpc//Microsoft Windows RPC/, 2107/open/tcp//msrpc//Microsoft Windows RPC/, 8443/open/tcp//ssl|http//Microsoft IIS httpd 10.0/	Ignored State: filtered (993)
+# Nmap done at Fri May 27 00:31:32 2022 -- 1 IP address (1 host up) scanned in 85.88 seconds
