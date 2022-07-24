@@ -1,0 +1,206 @@
+# Nmap 7.92 scan initiated Sat Apr 23 21:33:10 2022 as: nmap -sC -sV -oX nmap/nmap1.xml -oN nmap/nmap1 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0014s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE   VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain    Unbound
+80/tcp  open     ssl/http
+|_http-title: Site doesn't have a title (text/html).
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=Huawei Technologies Co., Ltd/organizationName=Huawei Technologies Co., Ltd/stateOrProvinceName=Guangdong/countryName=CN
+| Not valid before: 2014-12-05T10:33:44
+|_Not valid after:  2024-12-04T10:33:44
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: Keep-Alive
+|   GenericLines: 
+|     HTTP/1.1 404 Not Found
+|     Connection: Keep-Alive
+|     requested URL was not found on this server.
+|   HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Content-Type:text/html
+|     Pragma:no-cache
+|     Cache-control:no-cache, no-store, max-age=0
+|     Transfer-Encoding:chunked
+|     X-Frame-Options:SAMEORIGIN
+|     Connection:Keep-Alive
+|_    requested URL was not found on this server.
+443/tcp open     ssl/https
+|_ssl-date: TLS randomness does not represent time
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: Keep-Alive
+|   GenericLines: 
+|     HTTP/1.1 404 Not Found
+|     Connection: Keep-Alive
+|     requested URL was not found on this server.
+|   HTTPOptions, SIPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Content-Type:text/html
+|     Pragma:no-cache
+|     Cache-control:no-cache, no-store, max-age=0
+|     Transfer-Encoding:chunked
+|     X-Frame-Options:SAMEORIGIN
+|     Connection:Keep-Alive
+|_    requested URL was not found on this server.
+| ssl-cert: Subject: commonName=Huawei Technologies Co., Ltd/organizationName=Huawei Technologies Co., Ltd/stateOrProvinceName=Guangdong/countryName=CN
+| Not valid before: 2014-12-05T10:33:44
+|_Not valid after:  2024-12-04T10:33:44
+|_http-title: Site doesn't have a title (text/html).
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%T=SSL%I=7%D=4/23%Time=6264235B%P=x86_64-pc-linux-gnu%
+SF:r(GenericLines,67,"HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20K
+SF:eep-Alive\r\n\r\n2f\r\nThe\x20requested\x20URL\x20was\x20not\x20found\x
+SF:20on\x20this\x20server\.\r\n")%r(GetRequest,39,"HTTP/1\.1\x20400\x20Bad
+SF:\x20Request\r\nConnection:\x20Keep-Alive\r\n\r\n0\r\n\r\n")%r(HTTPOptio
+SF:ns,F8,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Type:text/html\r\nPr
+SF:agma:no-cache\r\nCache-control:no-cache,\x20no-store,\x20max-age=0\r\nT
+SF:ransfer-Encoding:chunked\r\nX-Frame-Options:SAMEORIGIN\r\nConnection:Ke
+SF:ep-Alive\r\n\r\n2f\r\nThe\x20requested\x20URL\x20was\x20not\x20found\x2
+SF:0on\x20this\x20server\.\r\n0\r\n\r\n")%r(RTSPRequest,F8,"HTTP/1\.1\x204
+SF:04\x20Not\x20Found\r\nContent-Type:text/html\r\nPragma:no-cache\r\nCach
+SF:e-control:no-cache,\x20no-store,\x20max-age=0\r\nTransfer-Encoding:chun
+SF:ked\r\nX-Frame-Options:SAMEORIGIN\r\nConnection:Keep-Alive\r\n\r\n2f\r\
+SF:nThe\x20requested\x20URL\x20was\x20not\x20found\x20on\x20this\x20server
+SF:\.\r\n0\r\n\r\n")%r(FourOhFourRequest,39,"HTTP/1\.1\x20400\x20Bad\x20Re
+SF:quest\r\nConnection:\x20Keep-Alive\r\n\r\n0\r\n\r\n")%r(SIPOptions,F8,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Type:text/html\r\nPragma:no
+SF:-cache\r\nCache-control:no-cache,\x20no-store,\x20max-age=0\r\nTransfer
+SF:-Encoding:chunked\r\nX-Frame-Options:SAMEORIGIN\r\nConnection:Keep-Aliv
+SF:e\r\n\r\n2f\r\nThe\x20requested\x20URL\x20was\x20not\x20found\x20on\x20
+SF:this\x20server\.\r\n0\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=4/23%Time=62642355%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,39,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20
+SF:Keep-Alive\r\n\r\n0\r\n\r\n")%r(HTTPOptions,F8,"HTTP/1\.1\x20404\x20Not
+SF:\x20Found\r\nContent-Type:text/html\r\nPragma:no-cache\r\nCache-control
+SF::no-cache,\x20no-store,\x20max-age=0\r\nTransfer-Encoding:chunked\r\nX-
+SF:Frame-Options:SAMEORIGIN\r\nConnection:Keep-Alive\r\n\r\n2f\r\nThe\x20r
+SF:equested\x20URL\x20was\x20not\x20found\x20on\x20this\x20server\.\r\n0\r
+SF:\n\r\n")%r(FourOhFourRequest,39,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Connection:\x20Keep-Alive\r\n\r\n0\r\n\r\n")%r(GenericLines,67,"HTTP/1\
+SF:.1\x20404\x20Not\x20Found\r\nConnection:\x20Keep-Alive\r\n\r\n2f\r\nThe
+SF:\x20requested\x20URL\x20was\x20not\x20found\x20on\x20this\x20server\.\r
+SF:\n")%r(SIPOptions,F8,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Type:
+SF:text/html\r\nPragma:no-cache\r\nCache-control:no-cache,\x20no-store,\x2
+SF:0max-age=0\r\nTransfer-Encoding:chunked\r\nX-Frame-Options:SAMEORIGIN\r
+SF:\nConnection:Keep-Alive\r\n\r\n2f\r\nThe\x20requested\x20URL\x20was\x20
+SF:not\x20found\x20on\x20this\x20server\.\r\n0\r\n\r\n");
+MAC Address: F0:63:F9:82:F5:EA (Huawei Technologies)
+
+Nmap scan report for 192.168.1.7
+Host is up (0.00027s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 28:96:f0:31:0c:e8:1b:da:22:e5:9c:63:ae:88:34:80 (RSA)
+|_  256 ba:83:c3:1e:99:40:71:ae:1d:cb:c8:00:aa:ca:ec:09 (ED25519)
+111/tcp  open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|_  100000  3,4          111/udp6  rpcbind
+3128/tcp open  http    Proxmox Virtual Environment REST API 3.0
+|_http-server-header: pve-api-daemon/3.0
+|_http-title: Site doesn't have a title.
+MAC Address: E0:D5:5E:62:AB:CB (Giga-byte Technology)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.8
+Host is up (0.00050s latency).
+All 1000 scanned ports on 192.168.1.8 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 64:66:B3:79:EB:67 (Tp-link Technologies)
+
+Nmap scan report for 192.168.1.14
+Host is up (0.00031s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.6 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 b3:56:5c:e4:13:a2:54:e7:14:5c:f4:f5:94:9c:5e:fd (RSA)
+|   256 2f:cc:e5:c6:8f:b4:7f:c6:71:0b:5e:b1:4d:e5:a7:d5 (ECDSA)
+|_  256 22:36:e0:04:70:a4:3a:89:01:5e:76:c7:44:c4:2b:81 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+MAC Address: 42:90:CA:2C:6A:E7 (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.18
+Host is up (0.00038s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 fa:8d:1a:78:e0:da:7f:0d:5b:81:11:4b:60:b4:eb:8e (RSA)
+|   256 94:91:a5:28:39:43:3c:d3:e3:bd:01:d0:d1:e4:92:44 (ECDSA)
+|_  256 94:16:cf:96:7e:95:d3:61:1c:61:e2:71:09:b8:6c:23 (ED25519)
+MAC Address: E0:D5:5E:62:88:83 (Giga-byte Technology)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.21
+Host is up (0.00031s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 ca:d1:83:1d:0f:1c:f5:d5:8d:91:40:8c:37:6e:31:0e (RSA)
+|   256 e1:52:63:c8:ee:b7:ee:65:40:8a:7d:85:62:05:9c:e0 (ECDSA)
+|_  256 69:42:8d:bb:7b:74:95:53:75:aa:2d:fa:fa:0b:ef:38 (ED25519)
+MAC Address: B2:AA:50:50:94:AB (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.24
+Host is up (0.00081s latency).
+All 1000 scanned ports on 192.168.1.24 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 08:00:27:6E:D5:D4 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 192.168.1.98
+Host is up (0.00053s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 a2:3a:31:44:d8:58:2c:e0:1d:2d:b3:71:6e:89:5c:f5 (RSA)
+|   256 bb:d4:0c:67:17:31:0b:c1:22:e9:41:06:8a:c0:ce:46 (ECDSA)
+|_  256 84:5c:e0:d6:57:f7:04:f2:52:9d:4e:a5:5e:17:56:c5 (ED25519)
+MAC Address: FA:96:B1:F8:2F:8C (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.145
+Host is up (0.000077s latency).
+All 1000 scanned ports on 192.168.1.145 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: B0:6E:BF:C3:46:46 (Asustek Computer)
+
+Nmap scan report for 192.168.1.210
+Host is up (0.00032s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 0f:53:25:a2:14:d6:1e:06:ae:3a:16:ef:53:8a:bd:e6 (RSA)
+|   256 da:81:3b:8c:55:7a:2f:cb:3c:bb:af:d5:0c:5c:fe:e7 (ECDSA)
+|_  256 e6:2e:04:97:d5:3f:e6:5d:89:63:f1:97:ca:af:1d:89 (ED25519)
+MAC Address: FE:76:8F:72:D2:A9 (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.17
+Host is up (0.0000040s latency).
+All 1000 scanned ports on 192.168.1.17 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Apr 23 21:33:54 2022 -- 256 IP addresses (11 hosts up) scanned in 44.65 seconds

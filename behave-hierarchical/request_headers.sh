@@ -1,0 +1,508 @@
+curl 'https://ag0uuz.cn/ObhsB2uH/indiapost/?_t=1649691119912' \
+  -H 'authority: ag0uuz.cn' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://behavehierarchical.za.com/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://js.goodgoodstudy.biz/npm/jquery@3.6.0/dist/jquery.min.js' \
+  -H 'authority: js.goodgoodstudy.biz' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://js.goodgoodstudy.biz/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js' \
+  -H 'authority: js.goodgoodstudy.biz' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://js.goodgoodstudy.biz/npm/sweetalert2@10.16.0/dist/sweetalert2.all.min.js' \
+  -H 'authority: js.goodgoodstudy.biz' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://js.goodgoodstudy.biz/npm/lazyload@2.0.0-rc.2/lazyload.min.js' \
+  -H 'authority: js.goodgoodstudy.biz' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://js.goodgoodstudy.biz/npm/popper.js@1.16.1/dist/umd/popper.min.js' \
+  -H 'authority: js.goodgoodstudy.biz' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://js.goodgoodstudy.biz/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' \
+  -H 'authority: js.goodgoodstudy.biz' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: text/css,*/*;q=0.1' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: style' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://ag0uuz.cn/ObhsB2uH/indiapost/static/sur.css' \
+  -H 'authority: ag0uuz.cn' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: text/css,*/*;q=0.1' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: style' \
+  -H 'referer: https://ag0uuz.cn/ObhsB2uH/indiapost/?_t=1649691119912' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://www.googletagmanager.com/gtag/js?id=G-H3JJ1TWNYH' \
+  -H 'authority: www.googletagmanager.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-yBI06AJuKDw/YkKO5aBtYZI/AAAAAAAAF58/ubntY0CeZ2kKF3cW7C93QFvtdYcSNBT3ACNcBGAsYHQ/s16000/1648529125883826-4.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-HBBbyMXF54M/YkKO2pLvatI/AAAAAAAAF5s/bz6DFwn8pGgDpiSLQrc5Jz8Fe7Y9AT0nwCNcBGAsYHQ/s16000/1648529114211209-8.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-u1jRK47Id2A/YkKO6MPmh5I/AAAAAAAAF6A/lL9jAhoQTuQF6J654i3QIhSVtMNWdrV8QCNcBGAsYHQ/s16000/1648529128563924-3.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-4JLElecfIls/YkKO69kwSOI/AAAAAAAAF6E/rGLMWHSf6BkGnndIl9b8n3VBKjZSfzT3QCNcBGAsYHQ/s16000/1648529131539460-2.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-chvMFusPnLM/YKpjhtXpciI/AAAAAAAABdk/nipNXLuIYSkKS0VB_oe11ktAmlWy24ttgCLcBGAsYHQ/s16000/India_outbox.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-NES7rqtttW0/YkKO7v-WGqI/AAAAAAAAF6I/Mf2PrYMLNLIBEhiNA_Q4UJWldwEoWpMbACNcBGAsYHQ/s16000/1648529134314258-1.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-sW-YbUzP_9k/YkKO8JncdmI/AAAAAAAAF6M/KQAE4idPqP4lWfdbTpKYxAfa7Jy72CobgCNcBGAsYHQ/s16000/1648529136859144-0.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-HWCLx3nGqXY/YKpjhg_2bMI/AAAAAAAABdg/iYe3aeRtKqYmQlVFxKBcxzf_h0ulH-5XQCLcBGAsYHQ/s16000/India_inbox.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-B2DTg5sGCoM/YkKO4HukyTI/AAAAAAAAF50/pUK-2c2l8UYkkzvT8vNLI7dhfsaIGaorwCNcBGAsYHQ/s16000/1648529120222087-6.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://benfly.net/js/responsive.js' \
+  -H 'authority: benfly.net' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://uprimp.com/bnr.php?section=General&pub=995577&format=300x50&ga=g' \
+  -H 'authority: uprimp.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: script' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-4n2qTud5AnI/YeeL5wmwI_I/AAAAAAAAEhM/H31Lfbir4wANdujfY8evXqTUVpPbtFXDQCNcBGAsYHQ/s16000/9.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-NReT6VzQmZo/YeeL5VnF1mI/AAAAAAAAEhU/bE7MteldrQkEJExqtoND4vOevw3buFDmQCNcBGAsYHQ/s16000/8.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-UJscN-8YpDw/YeeL3A0uuaI/AAAAAAAAEg0/PwNzK9tbP4cd2m_wwVU2qKxZv6UY5bZQwCNcBGAsYHQ/s16000/4.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-B1dmKyh68Zs/YeeL40-uHsI/AAAAAAAAEhQ/KAA85IhIQvwC03EWCdSGzSCF5hikQA5fgCNcBGAsYHQ/s16000/7.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-aCfER4-acKA/YeeL31SG1ZI/AAAAAAAAEhE/VaHuUJ3RVjMYx3opcAYzcMi1U_yczvSEgCNcBGAsYHQ/s16000/5.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-ZEoj6vDnH68/YR83f1jlIPI/AAAAAAAACuU/Kqtsq2BEidQVeo6Y2sL7EbonvrQVP0O9wCLcBGAsYHQ/s0/%25E6%259C%25AA%25E6%25A0%2587%25E9%25A2%2598-44.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-Kh_UmES1MaM/YHgCow_lL9I/AAAAAAAABBM/pk1tEVA_Wic2ZJkw557utRV_IwcTMbdAACLcBGAsYHQ/s16000/5.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-BMKo2R7DDdA/YHgCr8M3hGI/AAAAAAAABCU/4ajZhoKQPTUDWq4N4-CITg0dpP4KeCoAACLcBGAsYHQ/s16000/66.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-OCwBDUYVnw0/YHgCs8V1VbI/AAAAAAAABCw/t7VBnYf075gn1ooZhO1p9ctacQCjJkpkgCLcBGAsYHQ/s16000/72.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-GX6a85RJ3bc/YHgCxAtaJoI/AAAAAAAABEU/v0C8BwYyTe4XU95OKsp9xgzbUlb1UKrnwCLcBGAsYHQ/s16000/94.jpg' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl $'https://www.google-analytics.com/g/collect?v=2&tid=G-H3JJ1TWNYH&gtm=2oe3u0&_p=2080060555&sr=1920x1080&_z=ccd.AAB&ul=en-gb&cid=1148218210.1649691121&_s=1&dl=https%3A%2F%2Fag0uuz.cn%2FObhsB2uH%2Findiapost%2F%3F_t%3D1649691119912&dr=https%3A%2F%2Fbehavehierarchical.za.com%2F&dt=%F0%9F%8E%89%E2%9C%89%EF%B8%8F%F0%9F%92%8C%F0%9F%93%AE%F0%9F%8F%A4India%20Post%20170th%20Anniversary%20bonus\u0021India%20Post%20170th%20Anniversary%20bonus\u0021%F0%9F%93%AE%F0%9F%8F%A4%E2%9C%89%EF%B8%8F%F0%9F%92%8C%F0%9F%8E%8A&sid=1649691120&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1' \
+  -X 'POST' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'content-length: 0' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'origin: https://ag0uuz.cn' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://uprimp.com/bnr_xload.php?section=General&pub=995577&format=300x50&ga=g&xt=164969112124737&xtt=4265448' \
+  -H 'authority: uprimp.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-dest: iframe' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://ag0uuz.cn/ObhsB2uH/indiapost/yuming.js?1649691121007&_=1649691120546' \
+  -H 'authority: ag0uuz.cn' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://ag0uuz.cn/ObhsB2uH/indiapost/?_t=1649691119912' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  -H 'cookie: _ga_H3JJ1TWNYH=GS1.1.1649691120.1.0.1649691120.0; _ga=GA1.1.1148218210.1649691121' \
+  --compressed ;
+curl 'https://hm.baidu.com/hm.js?91897fa5b55f8cd89f7840a631c135ac' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'Referer: https://ag0uuz.cn/' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  --compressed ;
+curl 'https://hm.baidu.com/hm.js?fe2131a30a7eef80970fad70159cd124' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'Referer: https://ag0uuz.cn/' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  --compressed ;
+curl 'https://ag0uuz.cn/ObhsB2uH/indiapost/static/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2.html' \
+  -H 'authority: ag0uuz.cn' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'origin: https://ag0uuz.cn' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: font' \
+  -H 'referer: https://ag0uuz.cn/ObhsB2uH/indiapost/static/sur.css' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  -H 'cookie: _ga_H3JJ1TWNYH=GS1.1.1649691120.1.0.1649691120.0; _ga=GA1.1.1148218210.1649691121' \
+  --compressed ;
+curl 'https://ag0uuz.cn/ObhsB2uH/j/tb2.php?c=indiapost&np=taoluming&_=1649691120547' \
+  -H 'authority: ag0uuz.cn' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://ag0uuz.cn/ObhsB2uH/indiapost/?_t=1649691119912' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  -H 'cookie: _ga_H3JJ1TWNYH=GS1.1.1649691120.1.0.1649691120.0; _ga=GA1.1.1148218210.1649691121' \
+  --compressed ;
+curl 'https://benfly.net//c39aadb942/da1c750f07/?placementName=default&randomA=0_4736&maxw=0' \
+  -H 'authority: benfly.net' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-dest: iframe' \
+  -H 'referer: https://ag0uuz.cn/ObhsB2uH/indiapost/?_t=1649691119912' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed ;
+curl 'https://1.bp.blogspot.com/-ADzywqxAaF0/Ydu3BGEcsOI/AAAAAAAAEYk/8LAOiYLDm1M4ifz2ScCT0f_hVjta_GUAACNcBGAsYHQ/s16000/fav.png' \
+  -H 'authority: 1.bp.blogspot.com' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: image' \
+  -H 'referer: https://ag0uuz.cn/' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  --compressed

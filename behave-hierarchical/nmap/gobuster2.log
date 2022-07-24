@@ -1,0 +1,17 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://ag0uuz.cn/ObhsB2uH/indiapost/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                Common-PHP-Filenames.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/04/11 23:01:53 Starting gobuster in directory enumeration mode
+===============================================================
+===============================================================
+2022/04/11 23:04:15 Finished
+===============================================================

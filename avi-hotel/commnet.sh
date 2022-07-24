@@ -1,0 +1,16 @@
+curl 'https://mren-hotel.herokuapp.com/api/reviews/addreview' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://smooth-hotel.netlify.app' \
+  -H 'Referer: https://smooth-hotel.netlify.app/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  --data-raw '{"userid":"62716908e5c1c2bc4745bd1c","description":"hello","name":"user","roomid":"6274d29ac86b6c1f6c702f4d","date":"2022-05-27T06:55:49.529Z"}' \
+  --compressed
